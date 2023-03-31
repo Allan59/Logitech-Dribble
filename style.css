@@ -6,21 +6,21 @@
 
     /* FONT-SIZE */
 
-    --fs-1 : 1rem ;
-    --fs-2 : 1.125rem ;
-    --fs-3 : 1.5rem ;
-    --fs-4 : 2.25rem ;
-    --fs-5 : 3.5rem ;
+    --fs-1 : clamp(10px , 30vw , 1rem);
+    --fs-2 : clamp(10px , 30vw , 1.125rem);
+    --fs-3 : clamp(10px , 30vw , 1.5rem);
+    --fs-4 : clamp(10px , 30vw , 2.25rem);
+    --fs-5 : clamp(10px , 30vw , 3.5rem);
 
     /* SPACING */
 
-    --sp-1 : 2rem ;
-    --sp-2 : 4.6875rem;
-    --sp-3 : 6.875rem ; 
+    --sp-1 : clamp(10px, 30vw, 2rem) 2rem ;
+    --sp-2 : clamp(10px, 30vw, 4.6875rem);
+    --sp-3 : clamp(10px, 30vw, 6.875rem); 
 
     /* PADDING */
 
-    --pd : 2.5rem;
+    --pd :clamp(10px, 30vw, 2.5rem);
 
     /* COOLORS */
 
