@@ -9,13 +9,16 @@
     <title>LOGITECH</title>
 </head>
 <body>
-    <main class="grid">
+    <main class="grid container">
         <div class="pad product_content grid">
             <nav class="nav_link_1 flex sp-2">
                 <img src="./assets/logo.png" alt="Logo">
-                <button>
-                    <img src="./assets/search.png" alt="Search">
-                </button>
+                <div class="search flex">
+                    <input placeholder="Rechercher" required="" class="input" name="text" type="text">
+                    <div class="icon">
+                        <img src="./assets/search.png" alt="search">
+                    </div>
+                </div>
             </nav>
                 <span class="flex">
                 <p class="fs-3 black">Master Series</p>
@@ -69,7 +72,7 @@
             </div>
 
 
-            <img class="tall-img" src="./assets/mx-keys-mini-top-black-us 1 grand.png" alt="">
+            <img id="selectimg" class="tall-img" src="./assets/mx-keys-mini-top-black-us 1 grand.png" alt="">
 
             <div class="end flex pad index-1">
                 <div class="caracteristic flex">
@@ -79,10 +82,12 @@
                     <p class="fs-3 fs-semi">-</p>
                     <p class="uppercase fs-3 fs-semi ">mightier</p>
                 </div>
-                <img src="./assets/arrow-down-circle.png" alt="">
+                <img src="./assets/arrow-down-circle.png" style="cursor: pointer;" alt="">
             </div>
         </div>
 
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
