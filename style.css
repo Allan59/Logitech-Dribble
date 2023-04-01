@@ -124,7 +124,7 @@ a{
 
 .container{
     max-width: 1440px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 body{
@@ -208,15 +208,6 @@ main{
     width: 100%;
     height: 100%;
   }
-
-
-
-
-
-
-
-
-
 
 
 .product__thumbail{
